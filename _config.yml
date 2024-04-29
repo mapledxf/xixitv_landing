@@ -1,0 +1,119 @@
+#
+# Awesome App Landing Page Config
+#
+
+# Be sure all REQUIRED fields are filled out!
+
+#
+# General App Info
+#
+app:
+  name: 溪溪TV # REQUIRED - Enter your app name
+  android_id: # Optional - Enter Android app id like: com.example.app
+  download_path: ./download/xixitv.apk
+
+  icon: images/app_icon.png # Leave blank to auto-magically populate
+  # To update use path relative to project root with no leading slash:
+  # e.g. images/app-icon-512.png
+  # 512px or greater, square
+
+  #favicon: # uncomment if uploading own favicon
+  # To update use path relative to project root with no leading slash:
+  # e.g. images/app-favicon.png - can be .ico or .png
+  # 16px or greater, square
+
+  screenshot: images/app_homepage.jpeg # Leave blank to auto-magically populate
+  # To update use path relative to project root with no leading slash:
+  # e.g. images/app-screen-640x1136.png
+  # 640x1136px
+
+  #video: # uncomment if prefer to show a video preview in the screen instead of image
+  # To update use path relative to project root with no leading slash:
+  # e.g. images/app-preview.mp4
+  # 640x1136px
+
+  #app_twitter: # uncomment if the app has a twitter account "@my-awesome-app"
+  #creator_twitter: # uncomment if creator has a twitter account "@awesome-dev"
+  #social_image: # uncomment and add an image - defaults to icon
+  # This will show up when your url is shared on sites like facebook and twitter
+  # To update use path relative to project root with no leading slash:
+  # e.g. images/app-social_image.png
+  # 512px or greater, square or width = 2X height
+#
+# Marketing
+#
+marketing_header: 且用且珍惜 # Optional
+marketing_desc: 溪溪TV是一款免费的全网聚合影视APP，聚合150+影视资源站点，超225万视频资源实时不断更新，支持安卓及电视盒子使用，而且还可以观看国内外、港澳台的电视直播，资源非常丰富。
+
+#
+# Social Links
+#
+# Includes an icon for each username you enter
+#
+social-links:
+  github:
+  facebook:
+  twitter:
+  pinterest:
+  instagram:
+  email:
+  youtube: # channel/<your_long_string> or <user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+#
+# Enable/Disable Features & Page Elements
+#
+enable:
+  app_icon: true
+  smart_app_banner: true
+
+#
+# Device
+#
+# Available devices:
+# * iphone-se-silver-vertical
+# * iphone-se-space-gray-vertical
+# * ipod-touch-blue-vertical
+# * tv
+#
+device: tv # REQUIRED
+
+#
+# Theme Settings
+#
+background_color: "#989898" # Optional
+background_image: /images/backgrounds/bg.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
+text_color: white # Optional
+link_color: # Optional
+social_link_color: white # Optional
+download_button_background_color: "#0191FF" # Optional
+download_button_text_color: white; # Optional
+
+#
+# Site Info
+#
+# If you want specific meta info for your <head></head> tags
+#
+title: # Optional - Enter your site title
+description: # Optional - Enter your site description
+
+#
+# Google Analytics
+#
+google_analytics: # Enter your tracking code (e.g. UA-2110908-2) to activate tracking
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+# The release of Awesome App Landing Page that you're using
+version: v1.0
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
