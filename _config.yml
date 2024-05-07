@@ -10,7 +10,7 @@
 app:
   name: 溪溪TV # REQUIRED - Enter your app name
   android_id: # Optional - Enter Android app id like: com.example.app
-  download_path: ./download/xixitv.apk
+  download_path: https://apps.xfding.cc/xixitv
 
   icon: images/app_icon.png # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
