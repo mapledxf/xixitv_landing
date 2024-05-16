@@ -42,8 +42,8 @@ app:
 #
 # Marketing
 #
-marketing_header: 且用且珍惜 # Optional
-marketing_desc: 溪溪TV是一款免费的全网聚合影视APP，聚合150+影视资源站点，超225万视频资源实时不断更新，支持安卓及电视盒子使用，而且还可以观看国内外、港澳台的电视直播，资源非常丰富。
+marketing_header: 点播+直播 # Optional
+marketing_desc: 溪溪TV一款免费的包含全网聚合影视以及电视直播的智能电视软件。聚合150+影视资源站点，超225万视频资源实时不断更新，同时还可以观看国内外、港澳台的电视直播。资源丰富，界面简洁，功能强大。
 
 #
 # Social Links
